@@ -11,7 +11,7 @@ namespace ConsoleApp1
 
     public virtual void MostrarInfo()
     {
-        Console.WriteLine("Datos de la persona:  " + Nombre + "  " + Apellidos + ";  Edad: " + Edad.ToString());
+        Console.WriteLine("Nuevos datos de la persona:  " + Nombre + "  " + Apellidos + ";  Edad: " + Edad.ToString());
     }
     public void CambiarNombre(string nombre, string apellidos)
     {

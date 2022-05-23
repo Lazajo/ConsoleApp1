@@ -38,8 +38,8 @@ namespace ConsoleApp1
             for (int i = 0; i < 10; i++)
             {
                 Contadores contador = new Contadores();
-                Console.WriteLine("Contador instanciadas = " + contador.Contador.ToString());
-                Console.WriteLine("Contador estaico = " + Contadores.ContadorEstatico.ToString());
+                Console.WriteLine("Nuevo contador instanciadas = " + contador.Contador.ToString());
+                Console.WriteLine("Nuevo contador estaico = " + Contadores.ContadorEstatico.ToString());
             }
 
             
